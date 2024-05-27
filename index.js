@@ -1,6 +1,6 @@
 const { Server } = require("socket.io");
 
-const io = new Server({ cors: "https://jessechat.netlify.app/" });
+const io = new Server({ cors: "https://jessechatt.netlify.app/" });
 const port = process.env.PORT || 3000
 
 let onlineUser = [];
